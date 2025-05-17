@@ -14,16 +14,22 @@ A tool for analyzing code and architecture diagrams for security vulnerabilities
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/CS.git
-cd CS
+git clone https://github.com/Aveerayy/code-security-analyzer.git
+cd code-security-analyzer
 ```
 
-2. Install dependencies:
+2. Create a `.env` file based on the example:
+```bash
+cp .env.example .env
+# Then edit .env to add your OpenAI API key
+```
+
+3. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Run the server:
+4. Run the server:
 ```bash
 node src/openai-proxy.cjs
 ```
